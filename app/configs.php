@@ -3,7 +3,7 @@
 	define('ROOT', __DIR__ . DS);
 	
 	define('SITE_TITLE', "Campuseiro's Mirror");
-	define('SITE_URL', 'http://'.$_SERVER['SERVER_NAME'] . '/solar/');
+	define('SITE_URL', 'http://'.$_SERVER['SERVER_NAME'] . '/CampuseirosMirror/');
 
 	#definição de namespaces e diretorios
 	define('DIR_PUBLIC', '../public/');

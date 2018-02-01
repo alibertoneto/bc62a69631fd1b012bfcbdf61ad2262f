@@ -1,0 +1,114 @@
+body {
+    /*background-image: url("http://www.leiaja.com/sites/default/files/field/image/tecnologia/topo/2017/07/arena_da_campus_party_recife_2012_-_pernambuco_brasil2_0.jpg");*/
+    background: rgba(50, 135, 255, 0.85);
+    background: -moz-linear-gradient(-45deg, rgba(50, 135, 255, 0.85) 0%, rgba(178, 140, 255, 0.85) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(50, 135, 255, 0.85) 0%, rgba(178, 140, 255, 0.85) 100%);
+    background: linear-gradient(135deg, rgba(50, 135, 255, 0.85) 0%, rgba(178, 140, 255, 0.85) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d93287ff', endColorstr='#d9b28cff', GradientType=1);
+
+    background-size: cover;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+main #row {
+    width: 100%;
+}
+
+main #block {
+    display: block;
+}
+
+section.auth {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.auth .logo {
+    width: 200px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+section.auth menu {
+    width: 700px;
+}
+
+section.auth menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.auth menu ul > li {
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: -1px;
+    cursor: pointer;
+    position: relative;
+}
+
+section.auth menu ul > li:hover > .sub {
+    display: block;
+}
+
+section.auth menu ul > li > .sub {
+    width: 250px;
+    background: #212121;
+    border-radius: 5px;
+    padding: 15px;
+    display: none;
+    position: absolute;
+    left: -50%;
+}
+
+section.auth menu ul > li > .sub > ul.social {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+section.auth menu ul > li > .sub > ul.social > li {
+    width: 50%;
+    padding: 7px;
+}
+
+section.auth menu ul > li > .sub > ul.social > li:first-child {
+    background: #2549c2;
+    border-radius: 5px 0 0 5px;
+}
+
+section.auth menu ul > li > .sub > ul.social > li:last-child {
+    background: #e70019;
+    border-radius: 0 5px 5px 0;
+}
+
+section.auth menu ul > li > .sub > input {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #212121;
+}
+
+section.auth menu ul > li > .sub > button {
+    width: 65%;
+    padding: 7px;
+    margin-top: 5px;
+    float: right;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #212121;
+}

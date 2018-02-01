@@ -42,6 +42,10 @@ body {
     margin: 10px 0px;
 }
 
+li {
+list-style: none;
+}
+
 .h1 {
     font-size: 40px;
 }
@@ -61,3 +65,5 @@ body {
 .h5 {
     font-size: 20px;
 }
+
+
