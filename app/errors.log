@@ -1,0 +1,939 @@
+[29-Jun-2016 11:24:07 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activity' in 'field list' in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(103): Libs\Helpers\Database\Database->exec('none')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\solar\app\controllers\cms\noticias.php on line 75
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP Notice:  Undefined index: view in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 25
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP Notice:  Undefined index: active in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 29
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP Notice:  Undefined index: active in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 33
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP Notice:  Undefined index: title in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 54
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP Notice:  Undefined index: subtitle in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 55
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP Notice:  Undefined index: id in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 60
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:25:54 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\solar\app\controllers\cms\noticias.php on line 75
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP Notice:  Undefined index: view in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 25
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP Notice:  Undefined index: active in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 29
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP Notice:  Undefined index: active in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 33
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP Notice:  Undefined index: title in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 54
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP Notice:  Undefined index: subtitle in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 55
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP Notice:  Undefined index: id in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 60
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:45:29 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\solar\app\controllers\cms\noticias.php on line 75
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP Notice:  Undefined index: view in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 25
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP Notice:  Undefined index: active in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 29
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP Notice:  Undefined index: active in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 33
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP Notice:  Undefined index: title in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 54
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP Notice:  Undefined index: subtitle in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 55
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP Notice:  Undefined index: id in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 60
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 14:46:18 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\solar\app\controllers\cms\noticias.php on line 75
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP Notice:  Undefined index: view in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 25
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP Notice:  Undefined index: active in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 29
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP Notice:  Undefined index: active in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 33
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP Notice:  Undefined index: title in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 54
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP Notice:  Undefined index: subtitle in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 55
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP Notice:  Undefined index: id in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 60
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 15:02:08 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 15:11:57 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in C:\wamp64\www\solar\app\models\noticias.php on line 3
+[29-Jun-2016 15:11:57 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:11:57 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:11:57 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:11:57 America/Sao_Paulo] PHP   3. Core\App->setController() C:\wamp64\www\solar\app\core\app.php:44
+[29-Jun-2016 15:11:57 America/Sao_Paulo] PHP   4. Controllers\Cms\Noticias->__construct() C:\wamp64\www\solar\app\core\app.php:25
+[29-Jun-2016 15:11:57 America/Sao_Paulo] PHP   5. Core\Controller->__construct() C:\wamp64\www\solar\app\controllers\cms\noticias.php:18
+[29-Jun-2016 15:11:57 America/Sao_Paulo] PHP   6. class_exists() C:\wamp64\www\solar\app\core\controller.php:18
+[29-Jun-2016 15:11:57 America/Sao_Paulo] PHP   7. spl_autoload_call() C:\wamp64\www\solar\app\core\controller.php:18
+[29-Jun-2016 15:11:57 America/Sao_Paulo] PHP   8. {closure:C:\wamp64\www\solar\index.php:9-14}() C:\wamp64\www\solar\app\core\controller.php:18
+[29-Jun-2016 15:12:22 America/Sao_Paulo] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in C:\wamp64\www\solar\app\models\noticias.php on line 3
+[29-Jun-2016 15:12:22 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:12:22 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:12:22 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:12:23 America/Sao_Paulo] PHP   3. Core\App->setController() C:\wamp64\www\solar\app\core\app.php:44
+[29-Jun-2016 15:12:23 America/Sao_Paulo] PHP   4. Controllers\Cms\Noticias->__construct() C:\wamp64\www\solar\app\core\app.php:25
+[29-Jun-2016 15:12:23 America/Sao_Paulo] PHP   5. Core\Controller->__construct() C:\wamp64\www\solar\app\controllers\cms\noticias.php:18
+[29-Jun-2016 15:12:23 America/Sao_Paulo] PHP   6. class_exists() C:\wamp64\www\solar\app\core\controller.php:18
+[29-Jun-2016 15:12:23 America/Sao_Paulo] PHP   7. spl_autoload_call() C:\wamp64\www\solar\app\core\controller.php:18
+[29-Jun-2016 15:12:23 America/Sao_Paulo] PHP   8. {closure:C:\wamp64\www\solar\index.php:9-14}() C:\wamp64\www\solar\app\core\controller.php:18
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in C:\wamp64\www\solar\app\controllers\cms\noticias.php on line 75
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP Notice:  Undefined index: view in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 25
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP Notice:  Undefined index: active in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 29
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP Notice:  Undefined index: active in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 33
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP Notice:  Undefined index: title in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 54
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP Notice:  Undefined index: subtitle in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 55
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP Notice:  Undefined index: id in C:\wamp64\www\solar\app\views\cms\pages\noticias\editor.phtml on line 60
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->editor() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\solar\app\controllers\cms\noticias.php:79
+[29-Jun-2016 15:50:19 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\solar\app\core\view.php:9
+[29-Jun-2016 16:10:04 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 131
+[29-Jun-2016 16:10:04 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 16:10:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 16:10:04 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 16:10:04 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 16:10:04 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:10:04 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->draft() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:10:04 America/Sao_Paulo] PHP   6. Models\Noticias->draft() C:\wamp64\www\solar\app\controllers\cms\noticias.php:41
+[29-Jun-2016 16:10:04 America/Sao_Paulo] PHP   7. Libs\Helpers\Database\Database->where() C:\wamp64\www\solar\app\models\noticias.php:106
+[29-Jun-2016 16:10:04 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY tb_news.order_by asc' at line 1 in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(108): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:10:11 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 131
+[29-Jun-2016 16:10:11 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 16:10:11 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 16:10:11 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 16:10:11 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 16:10:11 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:10:11 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->draft() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:10:11 America/Sao_Paulo] PHP   6. Models\Noticias->draft() C:\wamp64\www\solar\app\controllers\cms\noticias.php:41
+[29-Jun-2016 16:10:11 America/Sao_Paulo] PHP   7. Libs\Helpers\Database\Database->where() C:\wamp64\www\solar\app\models\noticias.php:106
+[29-Jun-2016 16:10:11 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY tb_news.order_by asc' at line 1 in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(108): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:10:31 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 131
+[29-Jun-2016 16:10:31 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 16:10:31 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 16:10:31 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 16:10:31 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 16:10:31 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:10:31 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->draft() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:10:31 America/Sao_Paulo] PHP   6. Models\Noticias->draft() C:\wamp64\www\solar\app\controllers\cms\noticias.php:41
+[29-Jun-2016 16:10:31 America/Sao_Paulo] PHP   7. Libs\Helpers\Database\Database->where() C:\wamp64\www\solar\app\models\noticias.php:106
+[29-Jun-2016 16:10:31 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY tb_news.order_by asc' at line 1 in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(108): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:10:35 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 131
+[29-Jun-2016 16:10:35 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 16:10:35 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 16:10:35 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 16:10:35 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 16:10:35 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:10:35 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->draft() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:10:35 America/Sao_Paulo] PHP   6. Models\Noticias->draft() C:\wamp64\www\solar\app\controllers\cms\noticias.php:41
+[29-Jun-2016 16:10:35 America/Sao_Paulo] PHP   7. Libs\Helpers\Database\Database->where() C:\wamp64\www\solar\app\models\noticias.php:106
+[29-Jun-2016 16:10:35 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY tb_news.order_by asc' at line 1 in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(108): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:12:09 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(109): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:12:15 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(109): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:15:36 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(116): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:15:58 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(116): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:16:51 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(116): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:19:47 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(113): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:19:49 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(113): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:20:04 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 76
+[29-Jun-2016 16:20:04 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 16:20:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 16:20:04 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 16:20:04 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 16:20:04 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:20:04 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->draft() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:20:04 America/Sao_Paulo] PHP   6. Models\Noticias->draft() C:\wamp64\www\solar\app\controllers\cms\noticias.php:41
+[29-Jun-2016 16:20:04 America/Sao_Paulo] PHP   7. Libs\Helpers\Database\Database->select() C:\wamp64\www\solar\app\models\noticias.php:111
+[29-Jun-2016 16:20:04 America/Sao_Paulo] PHP   8. Libs\Helpers\Database\Database->setFields() C:\wamp64\www\solar\app\libs\helpers\database\query.php:43
+[29-Jun-2016 16:20:04 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(113): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:20:56 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 76
+[29-Jun-2016 16:20:56 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 16:20:56 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 16:20:56 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 16:20:56 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 16:20:56 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:20:56 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->draft() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:20:56 America/Sao_Paulo] PHP   6. Models\Noticias->draft() C:\wamp64\www\solar\app\controllers\cms\noticias.php:41
+[29-Jun-2016 16:20:56 America/Sao_Paulo] PHP   7. Libs\Helpers\Database\Database->select() C:\wamp64\www\solar\app\models\noticias.php:111
+[29-Jun-2016 16:20:56 America/Sao_Paulo] PHP   8. Libs\Helpers\Database\Database->setFields() C:\wamp64\www\solar\app\libs\helpers\database\query.php:43
+[29-Jun-2016 16:20:57 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(113): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:21:27 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(113): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:21:32 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(113): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:22:31 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(105): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:23:39 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(105): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:24:58 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(104): Libs\Helpers\Database\Database->exec('all')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:27:57 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(102): Libs\Helpers\Database\Database->exec('none')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:31:38 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(104): Libs\Helpers\Database\Database->exec('none')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:32:09 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(104): Libs\Helpers\Database\Database->exec('none')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:32:44 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(105): Libs\Helpers\Database\Database->exec('none')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:34:27 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(31): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\models\noticias.php(102): Models\Noticias->selectAll(Array, Array)
+#3 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#4 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#5 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#7 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#8 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:34:38 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(31): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\models\noticias.php(102): Models\Noticias->selectAll(Array, Array)
+#3 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#4 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#5 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#7 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#8 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:34:43 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(31): Libs\Helpers\Database\Database->exec()
+#2 C:\wamp64\www\solar\app\models\noticias.php(102): Models\Noticias->selectAll(Array, Array)
+#3 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#4 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#5 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#6 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#7 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#8 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[29-Jun-2016 16:38:19 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 103
+[29-Jun-2016 16:38:28 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 103
+[29-Jun-2016 16:46:34 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 103
+[29-Jun-2016 16:49:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 106
+[29-Jun-2016 16:49:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 106
+[29-Jun-2016 16:49:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 106
+[29-Jun-2016 16:49:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 106
+[29-Jun-2016 16:51:13 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 106
+[29-Jun-2016 16:51:15 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 106
+[29-Jun-2016 16:51:19 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 106
+[29-Jun-2016 16:52:04 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 106
+[29-Jun-2016 16:52:05 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 106
+[29-Jun-2016 16:52:05 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 106
+[29-Jun-2016 16:52:05 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 106
+[29-Jun-2016 16:52:05 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 106
+[29-Jun-2016 16:52:06 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ')', expecting ']' in C:\wamp64\www\solar\app\models\noticias.php on line 106
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 76
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->draft() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   6. Models\Noticias->draft() C:\wamp64\www\solar\app\controllers\cms\noticias.php:41
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   7. Libs\Helpers\Database\Database->select() C:\wamp64\www\solar\app\models\noticias.php:102
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   8. Libs\Helpers\Database\Database->setFields() C:\wamp64\www\solar\app\libs\helpers\database\query.php:43
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 76
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP Stack trace:
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->draft() C:\wamp64\www\solar\app\core\app.php:34
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   6. Models\Noticias->draft() C:\wamp64\www\solar\app\controllers\cms\noticias.php:41
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   7. Libs\Helpers\Database\Database->select() C:\wamp64\www\solar\app\models\noticias.php:102
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP   8. Libs\Helpers\Database\Database->setFields() C:\wamp64\www\solar\app\libs\helpers\database\query.php:43
+[29-Jun-2016 16:52:23 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(102): Libs\Helpers\Database\Database->exec('none')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[30-Jun-2016 08:22:45 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 76
+[30-Jun-2016 08:22:45 America/Sao_Paulo] PHP Stack trace:
+[30-Jun-2016 08:22:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[30-Jun-2016 08:22:45 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[30-Jun-2016 08:22:45 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[30-Jun-2016 08:22:45 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[30-Jun-2016 08:22:45 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->draft() C:\wamp64\www\solar\app\core\app.php:34
+[30-Jun-2016 08:22:45 America/Sao_Paulo] PHP   6. Models\Noticias->draft() C:\wamp64\www\solar\app\controllers\cms\noticias.php:41
+[30-Jun-2016 08:22:46 America/Sao_Paulo] PHP   7. Libs\Helpers\Database\Database->select() C:\wamp64\www\solar\app\models\noticias.php:102
+[30-Jun-2016 08:22:46 America/Sao_Paulo] PHP   8. Libs\Helpers\Database\Database->setFields() C:\wamp64\www\solar\app\libs\helpers\database\query.php:43
+[30-Jun-2016 08:22:46 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 76
+[30-Jun-2016 08:22:46 America/Sao_Paulo] PHP Stack trace:
+[30-Jun-2016 08:22:46 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[30-Jun-2016 08:22:46 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[30-Jun-2016 08:22:46 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[30-Jun-2016 08:22:46 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[30-Jun-2016 08:22:46 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->draft() C:\wamp64\www\solar\app\core\app.php:34
+[30-Jun-2016 08:22:46 America/Sao_Paulo] PHP   6. Models\Noticias->draft() C:\wamp64\www\solar\app\controllers\cms\noticias.php:41
+[30-Jun-2016 08:22:46 America/Sao_Paulo] PHP   7. Libs\Helpers\Database\Database->select() C:\wamp64\www\solar\app\models\noticias.php:102
+[30-Jun-2016 08:22:46 America/Sao_Paulo] PHP   8. Libs\Helpers\Database\Database->setFields() C:\wamp64\www\solar\app\libs\helpers\database\query.php:43
+[30-Jun-2016 08:22:46 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(102): Libs\Helpers\Database\Database->exec('none')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[30-Jun-2016 08:22:57 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 76
+[30-Jun-2016 08:22:57 America/Sao_Paulo] PHP Stack trace:
+[30-Jun-2016 08:22:57 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[30-Jun-2016 08:22:57 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[30-Jun-2016 08:22:57 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[30-Jun-2016 08:22:57 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[30-Jun-2016 08:22:57 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->draft() C:\wamp64\www\solar\app\core\app.php:34
+[30-Jun-2016 08:22:57 America/Sao_Paulo] PHP   6. Models\Noticias->draft() C:\wamp64\www\solar\app\controllers\cms\noticias.php:41
+[30-Jun-2016 08:22:58 America/Sao_Paulo] PHP   7. Libs\Helpers\Database\Database->select() C:\wamp64\www\solar\app\models\noticias.php:102
+[30-Jun-2016 08:22:58 America/Sao_Paulo] PHP   8. Libs\Helpers\Database\Database->setFields() C:\wamp64\www\solar\app\libs\helpers\database\query.php:43
+[30-Jun-2016 08:22:58 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 76
+[30-Jun-2016 08:22:58 America/Sao_Paulo] PHP Stack trace:
+[30-Jun-2016 08:22:58 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[30-Jun-2016 08:22:58 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[30-Jun-2016 08:22:58 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[30-Jun-2016 08:22:58 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[30-Jun-2016 08:22:58 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->draft() C:\wamp64\www\solar\app\core\app.php:34
+[30-Jun-2016 08:22:58 America/Sao_Paulo] PHP   6. Models\Noticias->draft() C:\wamp64\www\solar\app\controllers\cms\noticias.php:41
+[30-Jun-2016 08:22:58 America/Sao_Paulo] PHP   7. Libs\Helpers\Database\Database->select() C:\wamp64\www\solar\app\models\noticias.php:102
+[30-Jun-2016 08:22:58 America/Sao_Paulo] PHP   8. Libs\Helpers\Database\Database->setFields() C:\wamp64\www\solar\app\libs\helpers\database\query.php:43
+[30-Jun-2016 08:22:58 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(102): Libs\Helpers\Database\Database->exec('none')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 76
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP Stack trace:
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->draft() C:\wamp64\www\solar\app\core\app.php:34
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   6. Models\Noticias->draft() C:\wamp64\www\solar\app\controllers\cms\noticias.php:41
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   7. Libs\Helpers\Database\Database->select() C:\wamp64\www\solar\app\models\noticias.php:103
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   8. Libs\Helpers\Database\Database->setFields() C:\wamp64\www\solar\app\libs\helpers\database\query.php:43
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 76
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP Stack trace:
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\solar\app\core\app.php:45
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\solar\app\core\app.php:34}() C:\wamp64\www\solar\app\core\app.php:34
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   5. Controllers\Cms\Noticias->draft() C:\wamp64\www\solar\app\core\app.php:34
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   6. Models\Noticias->draft() C:\wamp64\www\solar\app\controllers\cms\noticias.php:41
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   7. Libs\Helpers\Database\Database->select() C:\wamp64\www\solar\app\models\noticias.php:103
+[30-Jun-2016 08:31:23 America/Sao_Paulo] PHP   8. Libs\Helpers\Database\Database->setFields() C:\wamp64\www\solar\app\libs\helpers\database\query.php:43
+[30-Jun-2016 10:01:09 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in C:\wamp64\www\solar\app\models\noticias.php on line 96
+[30-Jun-2016 10:16:05 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(105): Libs\Helpers\Database\Database->exec('first')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[30-Jun-2016 10:17:32 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(105): Libs\Helpers\Database\Database->exec('first')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[30-Jun-2016 10:17:37 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(105): Libs\Helpers\Database\Database->exec('first')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[30-Jun-2016 10:19:16 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(105): Libs\Helpers\Database\Database->exec('first')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[30-Jun-2016 10:19:20 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(105): Libs\Helpers\Database\Database->exec('first')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[30-Jun-2016 11:09:44 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(105): Libs\Helpers\Database\Database->exec('first')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[30-Jun-2016 11:10:36 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(107): Libs\Helpers\Database\Database->exec('first')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[30-Jun-2016 11:13:24 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\wamp64\www\solar\app\libs\helpers\database\query.php:156
+Stack trace:
+#0 C:\wamp64\www\solar\app\libs\helpers\database\query.php(156): PDOStatement->execute()
+#1 C:\wamp64\www\solar\app\models\noticias.php(107): Libs\Helpers\Database\Database->exec('first')
+#2 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#3 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#4 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#5 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#6 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#7 {main}
+  thrown in C:\wamp64\www\solar\app\libs\helpers\database\query.php on line 156
+[30-Jun-2016 11:15:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type Libs\Helpers\Database\Database as array in C:\wamp64\www\solar\app\models\noticias.php:109
+Stack trace:
+#0 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#1 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#2 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#4 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#5 {main}
+  thrown in C:\wamp64\www\solar\app\models\noticias.php on line 109
+[30-Jun-2016 11:17:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type Libs\Helpers\Database\Database as array in C:\wamp64\www\solar\app\models\noticias.php:109
+Stack trace:
+#0 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#1 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#2 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#4 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#5 {main}
+  thrown in C:\wamp64\www\solar\app\models\noticias.php on line 109
+[30-Jun-2016 11:17:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Cannot use object of type Libs\Helpers\Database\Database as array in C:\wamp64\www\solar\app\models\noticias.php:109
+Stack trace:
+#0 C:\wamp64\www\solar\app\controllers\cms\noticias.php(41): Models\Noticias->draft()
+#1 [internal function]: Controllers\Cms\Noticias->draft('noticias')
+#2 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#4 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#5 {main}
+  thrown in C:\wamp64\www\solar\app\models\noticias.php on line 109
+[01-Jul-2016 10:15:57 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method Models\Noticias::select2() in C:\wamp64\www\solar\app\controllers\cms\noticias.php:83
+Stack trace:
+#0 [internal function]: Controllers\Cms\Noticias->teste('noticias')
+#1 C:\wamp64\www\solar\app\core\app.php(34): call_user_func_array(Array, Array)
+#2 C:\wamp64\www\solar\app\core\app.php(45): Core\App->setMethod()
+#3 C:\wamp64\www\solar\index.php(17): Core\App->run()
+#4 {main}
+  thrown in C:\wamp64\www\solar\app\controllers\cms\noticias.php on line 83
+[01-Jul-2016 10:17:03 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare Controllers\Cms\Noticias::teste() in C:\wamp64\www\solar\app\controllers\cms\noticias.php on line 88
+[01-Jul-2016 10:17:03 America/Sao_Paulo] PHP Stack trace:
+[01-Jul-2016 10:17:03 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[01-Jul-2016 10:17:03 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[01-Jul-2016 10:17:03 America/Sao_Paulo] PHP   3. Core\App->setController() C:\wamp64\www\solar\app\core\app.php:44
+[01-Jul-2016 10:17:03 America/Sao_Paulo] PHP   4. class_exists() C:\wamp64\www\solar\app\core\app.php:25
+[01-Jul-2016 10:17:03 America/Sao_Paulo] PHP   5. spl_autoload_call() C:\wamp64\www\solar\app\core\app.php:25
+[01-Jul-2016 10:17:03 America/Sao_Paulo] PHP   6. {closure:C:\wamp64\www\solar\index.php:9-14}() C:\wamp64\www\solar\app\core\app.php:25
+[01-Jul-2016 10:17:08 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare Controllers\Cms\Noticias::teste() in C:\wamp64\www\solar\app\controllers\cms\noticias.php on line 88
+[01-Jul-2016 10:17:08 America/Sao_Paulo] PHP Stack trace:
+[01-Jul-2016 10:17:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\solar\index.php:0
+[01-Jul-2016 10:17:08 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\solar\index.php:17
+[01-Jul-2016 10:17:08 America/Sao_Paulo] PHP   3. Core\App->setController() C:\wamp64\www\solar\app\core\app.php:44
+[01-Jul-2016 10:17:08 America/Sao_Paulo] PHP   4. class_exists() C:\wamp64\www\solar\app\core\app.php:25
+[01-Jul-2016 10:17:08 America/Sao_Paulo] PHP   5. spl_autoload_call() C:\wamp64\www\solar\app\core\app.php:25
+[01-Jul-2016 10:17:08 America/Sao_Paulo] PHP   6. {closure:C:\wamp64\www\solar\index.php:9-14}() C:\wamp64\www\solar\app\core\app.php:25
