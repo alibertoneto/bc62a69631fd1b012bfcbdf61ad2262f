@@ -20,6 +20,7 @@
 			];
 
 			$data['config']['assets'] = $this->view->setAssets($assets);
+            $data['config']['menu'] = 1;
 
 			// RENDER PAGE HTML 
 			$this->view->render('Networking/index', $data);
