@@ -3,10 +3,29 @@ body {
     color: #ccc;
 }
 
+header menu{
+    color:#333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 aside h1 {
     font-size: 20px !important;
     font-weight: 700;
 }
+
+
+
 
 aside {
     width: 250px;
@@ -19,6 +38,41 @@ aside ul {
     margin-top: 20px;
     font-size: 14px;
 }
+
+section .atividades {
+    width: 490px;
+}
+
+section .atividades ul {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-flow: wrap;
+}
+
+section .atividades ul li {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+section .atividades ul li .desc {
+    color: #333;
+    display: flex;
+    align-items: flex-end;
+}
+
+section .atividades ul li .desc h1 {
+    font-size: 8px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+
 
 section .atividades {
     width: 490px;
