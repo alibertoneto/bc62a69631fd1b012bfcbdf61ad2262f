@@ -133,6 +133,7 @@ main {
     
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
 }
 
 .auth .content h1{
