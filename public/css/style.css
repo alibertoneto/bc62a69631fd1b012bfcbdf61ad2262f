@@ -38,7 +38,8 @@ body {
 main {
     width: 1200px;
     height: auto;
-    display: flex;    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer{
