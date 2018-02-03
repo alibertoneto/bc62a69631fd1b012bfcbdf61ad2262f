@@ -3,23 +3,10 @@ body {
     color: #ccc;
 }
 
-<<<<<<< HEAD
-=======
+
 header menu{
     color:#333;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 aside h1 {
     font-size: 20px !important;
@@ -27,9 +14,6 @@ aside h1 {
 }
 
 
-
-
->>>>>>> a26d59212e50b54f661a94f71ca98d2e1a3498e8
 aside {
     width: 250px;
     height: auto;
@@ -161,10 +145,8 @@ section .atividades ul li .desc h1 {
     width: 100%;
     font-size: 8px;
     margin-top: 20px;
-<<<<<<< HEAD
     color: #FFFFFF;
     padding: 7px;
-=======
     font-size: 14px;
 }
 
@@ -201,5 +183,4 @@ section .atividades ul li .desc h1 {
     font-size: 8px;
     margin-top: 20px;
     font-size: 14px;
->>>>>>> a26d59212e50b54f661a94f71ca98d2e1a3498e8
 }
