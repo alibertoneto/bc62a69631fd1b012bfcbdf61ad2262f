@@ -988,3 +988,84 @@ Stack trace:
 [03-Feb-2018 10:01:37 America/Sao_Paulo] PHP   5. Controllers\Error->index() D:\wamp64\www\CampuseirosMirror\app\core\app.php:39
 [03-Feb-2018 10:01:37 America/Sao_Paulo] PHP   6. Core\View->render() D:\wamp64\www\CampuseirosMirror\app\controllers\error.php:14
 [03-Feb-2018 10:01:37 America/Sao_Paulo] PHP   7. include_once() D:\wamp64\www\CampuseirosMirror\app\core\view.php:8
+[03-Feb-2018 10:03:33 America/Sao_Paulo] PHP Notice:  Undefined index: menu in C:\wamp64\www\CampuseirosMirror\app\views\template\header.phtml on line 26
+[03-Feb-2018 10:03:33 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2018 10:03:33 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\CampuseirosMirror\index.php:0
+[03-Feb-2018 10:03:33 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\CampuseirosMirror\index.php:17
+[03-Feb-2018 10:03:33 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\CampuseirosMirror\app\core\app.php:45
+[03-Feb-2018 10:03:33 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\CampuseirosMirror\app\core\app.php:34}() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:03:33 America/Sao_Paulo] PHP   5. Controllers\Networking->index() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:03:33 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\CampuseirosMirror\app\controllers\networking.php:25
+[03-Feb-2018 10:03:33 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\CampuseirosMirror\app\core\view.php:8
+[03-Feb-2018 10:06:30 America/Sao_Paulo] PHP Notice:  Undefined index: menu in C:\wamp64\www\CampuseirosMirror\app\views\template\header.phtml on line 26
+[03-Feb-2018 10:06:30 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2018 10:06:30 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\CampuseirosMirror\index.php:0
+[03-Feb-2018 10:06:30 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\CampuseirosMirror\index.php:17
+[03-Feb-2018 10:06:30 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\CampuseirosMirror\app\core\app.php:45
+[03-Feb-2018 10:06:30 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\CampuseirosMirror\app\core\app.php:34}() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:30 America/Sao_Paulo] PHP   5. Controllers\Networking->index() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:30 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\CampuseirosMirror\app\controllers\networking.php:25
+[03-Feb-2018 10:06:30 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\CampuseirosMirror\app\core\view.php:8
+[03-Feb-2018 10:06:32 America/Sao_Paulo] PHP Notice:  Undefined index: menu in C:\wamp64\www\CampuseirosMirror\app\views\template\header.phtml on line 26
+[03-Feb-2018 10:06:32 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2018 10:06:32 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\CampuseirosMirror\index.php:0
+[03-Feb-2018 10:06:32 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\CampuseirosMirror\index.php:17
+[03-Feb-2018 10:06:32 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\CampuseirosMirror\app\core\app.php:45
+[03-Feb-2018 10:06:32 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\CampuseirosMirror\app\core\app.php:34}() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:32 America/Sao_Paulo] PHP   5. Controllers\Networking->index() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:32 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\CampuseirosMirror\app\controllers\networking.php:25
+[03-Feb-2018 10:06:32 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\CampuseirosMirror\app\core\view.php:8
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP Notice:  Undefined index: menu in C:\wamp64\www\CampuseirosMirror\app\views\template\header.phtml on line 26
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\CampuseirosMirror\index.php:0
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\CampuseirosMirror\index.php:17
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\CampuseirosMirror\app\core\app.php:45
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\CampuseirosMirror\app\core\app.php:34}() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   5. Controllers\Networking->index() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\CampuseirosMirror\app\controllers\networking.php:25
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\CampuseirosMirror\app\core\view.php:8
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP Notice:  Undefined index: menu in C:\wamp64\www\CampuseirosMirror\app\views\template\header.phtml on line 26
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\CampuseirosMirror\index.php:0
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\CampuseirosMirror\index.php:17
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\CampuseirosMirror\app\core\app.php:45
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\CampuseirosMirror\app\core\app.php:34}() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   5. Controllers\Networking->index() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\CampuseirosMirror\app\controllers\networking.php:25
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\CampuseirosMirror\app\core\view.php:8
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP Notice:  Undefined index: menu in C:\wamp64\www\CampuseirosMirror\app\views\template\header.phtml on line 26
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2018 10:06:33 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\CampuseirosMirror\index.php:0
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\CampuseirosMirror\index.php:17
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\CampuseirosMirror\app\core\app.php:45
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\CampuseirosMirror\app\core\app.php:34}() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP   5. Controllers\Networking->index() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\CampuseirosMirror\app\controllers\networking.php:25
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\CampuseirosMirror\app\core\view.php:8
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP Notice:  Undefined index: menu in C:\wamp64\www\CampuseirosMirror\app\views\template\header.phtml on line 26
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\CampuseirosMirror\index.php:0
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\CampuseirosMirror\index.php:17
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\CampuseirosMirror\app\core\app.php:45
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\CampuseirosMirror\app\core\app.php:34}() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP   5. Controllers\Networking->index() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\CampuseirosMirror\app\controllers\networking.php:25
+[03-Feb-2018 10:06:34 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\CampuseirosMirror\app\core\view.php:8
+[03-Feb-2018 10:06:54 America/Sao_Paulo] PHP Notice:  Undefined index: menu in C:\wamp64\www\CampuseirosMirror\app\views\template\header.phtml on line 26
+[03-Feb-2018 10:06:54 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2018 10:06:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\CampuseirosMirror\index.php:0
+[03-Feb-2018 10:06:54 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\CampuseirosMirror\index.php:17
+[03-Feb-2018 10:06:54 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\CampuseirosMirror\app\core\app.php:45
+[03-Feb-2018 10:06:54 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\CampuseirosMirror\app\core\app.php:34}() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:54 America/Sao_Paulo] PHP   5. Controllers\Networking->index() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:54 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\CampuseirosMirror\app\controllers\networking.php:25
+[03-Feb-2018 10:06:54 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\CampuseirosMirror\app\core\view.php:8
+[03-Feb-2018 10:06:55 America/Sao_Paulo] PHP Notice:  Undefined index: menu in C:\wamp64\www\CampuseirosMirror\app\views\template\header.phtml on line 26
+[03-Feb-2018 10:06:55 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2018 10:06:55 America/Sao_Paulo] PHP   1. {main}() C:\wamp64\www\CampuseirosMirror\index.php:0
+[03-Feb-2018 10:06:55 America/Sao_Paulo] PHP   2. Core\App->run() C:\wamp64\www\CampuseirosMirror\index.php:17
+[03-Feb-2018 10:06:55 America/Sao_Paulo] PHP   3. Core\App->setMethod() C:\wamp64\www\CampuseirosMirror\app\core\app.php:45
+[03-Feb-2018 10:06:55 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp64\www\CampuseirosMirror\app\core\app.php:34}() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:55 America/Sao_Paulo] PHP   5. Controllers\Networking->index() C:\wamp64\www\CampuseirosMirror\app\core\app.php:34
+[03-Feb-2018 10:06:55 America/Sao_Paulo] PHP   6. Core\View->render() C:\wamp64\www\CampuseirosMirror\app\controllers\networking.php:25
+[03-Feb-2018 10:06:55 America/Sao_Paulo] PHP   7. include_once() C:\wamp64\www\CampuseirosMirror\app\core\view.php:8
