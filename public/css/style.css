@@ -1,13 +1,12 @@
 @charset "utf-8";
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 * {
     margin: 0;
     padding: 0;
     border: 0;
-
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -22,7 +21,23 @@ a {
 
 body {
     overflow-x: hidden;
+    background-image: url(../img/site/bg-home.png);
 }
+
+
+
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+
+
+
 
 .sub-titles {
     width: 100%;

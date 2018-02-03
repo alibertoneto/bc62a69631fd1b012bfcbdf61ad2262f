@@ -937,3 +937,9 @@ Stack trace:
 [01-Jul-2016 10:17:08 America/Sao_Paulo] PHP   4. class_exists() C:\wamp64\www\solar\app\core\app.php:25
 [01-Jul-2016 10:17:08 America/Sao_Paulo] PHP   5. spl_autoload_call() C:\wamp64\www\solar\app\core\app.php:25
 [01-Jul-2016 10:17:08 America/Sao_Paulo] PHP   6. {closure:C:\wamp64\www\solar\index.php:9-14}() C:\wamp64\www\solar\app\core\app.php:25
+[03-Feb-2018 04:06:28 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '"public/css/pages.css"' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\wamp64\www\CampuseirosMirror\app\controllers\edition.php on line 19
+[03-Feb-2018 04:06:28 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '"public/css/pages.css"' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\wamp64\www\CampuseirosMirror\app\controllers\edition.php on line 19
+[03-Feb-2018 04:06:28 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '"public/css/pages.css"' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\wamp64\www\CampuseirosMirror\app\controllers\edition.php on line 19
+[03-Feb-2018 04:06:29 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '"public/css/pages.css"' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\wamp64\www\CampuseirosMirror\app\controllers\edition.php on line 19
+[03-Feb-2018 04:06:29 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '"public/css/pages.css"' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\wamp64\www\CampuseirosMirror\app\controllers\edition.php on line 19
+[03-Feb-2018 04:06:29 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '"public/css/pages.css"' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\wamp64\www\CampuseirosMirror\app\controllers\edition.php on line 19

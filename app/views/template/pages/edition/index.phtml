@@ -1,81 +1,75 @@
 <section class="auth">
-    <div class="logo">
-        Logotipo
+    
+    <div class="row head">
+        <!--logo-->
+        <div class="logo_b"></div>
+
+        <!--menu-->
+        <menu>
+            <ul>
+                <li>página do evento</li> 
+                <li>network</li>
+                <li>contato</li>
+                <li>|</li>
+                <li>Oi Jeferson</li>
+            </ul>
+        </menu>
     </div>
 
-    <menu>
-        <ul>
-            <li>
-                <a href="#">o evento</a>
-            </li>
-            <li>
-                cadastra-se
-                <form action="#" class="sub">
-                    <ul class="social">
-                        <li>Facebook</li>
-                        <li>Google +</li>
-                    </ul>
+    <div class="row content">
 
-                    <input type="text" placeholder="e-mail"/>
-                    <input type="password" placeholder="senha"/>
-                    <button>enviar</button>
-                </form>
-            </li>
-            <li>
-                já me cadastrei
-                <form action="#" class="sub">
-                    <ul class="social">
-                        <li>Facebook</li>
-                        <li>Google +</li>
-                    </ul>
+        <aside>
+            <h1>Minhas configurações</h1>
 
-                    <input type="text" placeholder="e-mail"/>
-                    <input type="password" placeholder="senha"/>
-                    <button>entrar</button>
-                </form>
-            </li>
-            <li>
-                <a href="#">contato</a>
-            </li>
-        </ul>
-    </menu>
-</section>
+            <ul>
+                <li>Pesquisar</li>
+                <li>Agora na Campus</li>
+                <li>Pessoas</li>
+                <li>Favoritos</li>
+            </ul>
+
+            <ul>
+                <li>Agenda Geral</li>
+                <li>Workshops</li>
+                <li>Challengers</li>
+                <li>Talks</li>
+            </ul>
+
+            <ul>
+                <li>Magistrais</li>
+                <li>Palestrantes</li>
+                <li>Open Campus</li>
+            </ul>
+
+        </aside>
 
 
-<section class="actions">
-    <aside>
-        <h1>Minhas configurações</h1>
 
-        <ul>
-            <li>Pesquisar</li>
-            <li>Agora na Campus</li>
-            <li>Pessoas</li>
-            <li>Favoritos</li>
-        </ul>
 
-        <ul>
-            <li>Agenda Geral</li>
-            <li>Workshops</li>
-            <li>Challengers</li>
-            <li>Talks</li>
-        </ul>
-    </aside>
 
-    <div class="posts">
-        Jef diz
-        Jef diz
-        Jef diz
+
+
+        <section class="posts">
+            Jef diz
+            Jef diz
+            Jef diz
+        </section>
+
+
+        <section class="atividades">
+            <ul>
+                <li ng-repeat="item in items" ng-if="!ativo" style="background-image: url({{item.background_image}})">
+                    <div class="desc">
+                        <h1>{{item.title}}</h1>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+
     </div>
-
-    <div class="atividades">
-        <ul>
-            <li ng-repeat="item in items" ng-if="!ativo" style="background-image: url({{item.background_image}})">
-                <div class="desc">
-                    <h1>{{item.title}}</h1>
-                </div>
-            </li>
-        </ul>
-    </div>
+    
+    <footer>"We unite talent. We create the future."</footer>
 </section>
 
 

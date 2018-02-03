@@ -1,145 +1,20 @@
 body {
-
-    height: 100%;
-    min-height: 100%;
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: none;
+    color:#ccc;
 }
 
-main {
-    width: 1200px;
-}
 
-main #row {
-    width: 100%;
-}
 
-main #block {
-    display: block;
-}
+aside h1{ font-size: 20px !important; font-weight: 700; }
 
-section.auth, section.actions {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-section.auth .logo {
-    width: 200px;
-    height: 100px;
-    background: rgba(255, 255, 255, 0.5);
-}
-
-section.auth menu {
-    width: 700px;
-}
-
-section.auth menu ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-section.auth menu ul > li {
-    color: #212121;
-    font-weight: bold;
-    letter-spacing: -1px;
-    cursor: pointer;
-    position: relative;
-}
-
-section.auth menu ul > li:hover > .sub {
-    display: block;
-}
-
-section.auth menu ul > li > .sub {
+aside{
     width: 250px;
-    background: #212121;
-    border-radius: 5px;
-    padding: 15px;
-    display: none;
-    position: absolute;
-    left: -50%;
+    height: auto;
+
+    color: #333;
 }
 
-section.auth menu ul > li > .sub > ul.social {
-    width: 100%;
-    margin-bottom: 5px;
-}
-
-section.auth menu ul > li > .sub > ul.social > li {
-    width: 50%;
-    padding: 7px;
-}
-
-section.auth menu ul > li > .sub > ul.social > li:first-child {
-    background: #2549c2;
-    border-radius: 5px 0 0 5px;
-}
-
-section.auth menu ul > li > .sub > ul.social > li:last-child {
-    background: #e70019;
-    border-radius: 0 5px 5px 0;
-}
-
-section.auth menu ul > li > .sub > input {
-    width: 100%;
-    padding: 7px;
-    margin: 5px 0;
-    border-radius: 5px;
-    color: #212121;
-}
-
-section.auth menu ul > li > .sub > button {
-    width: 65%;
-    padding: 7px;
-    margin-top: 5px;
-    float: right;
-    border-radius: 5px;
-    background: #FFFFFF;
-    color: #212121;
-}
-
-section.actions {
-    align-items: flex-start;
-}
-
-section.actions aside {
-    width: 300px;
-}
-
-section.actions .posts {
-    width: 350px;
-}
-
-section.actions .atividades {
-    width: 490px;
-}
-
-section.actions .atividades ul {
-    width: 100%;
-    height: 320px;
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    flex-flow: wrap;
-}
-
-section.actions .atividades ul li {
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-section.actions .atividades ul li .desc {
-    display: flex;
-    align-items: flex-end;
-}
-
-section.actions .atividades ul li .desc h1 {
-    font-size: 8px;
+aside ul{
+    margin-top: 20px;
+    font-size: 14px;
 }

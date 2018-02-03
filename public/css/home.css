@@ -1,12 +1,7 @@
 body {
-    /*background-image: url("http://www.leiaja.com/sites/default/files/field/image/tecnologia/topo/2017/07/arena_da_campus_party_recife_2012_-_pernambuco_brasil2_0.jpg");*/
-    background: rgba(50, 135, 255, 0.85);
-    background: -moz-linear-gradient(-45deg, rgba(50, 135, 255, 0.85) 0%, rgba(178, 140, 255, 0.85) 100%);
-    background: -webkit-linear-gradient(-45deg, rgba(50, 135, 255, 0.85) 0%, rgba(178, 140, 255, 0.85) 100%);
-    background: linear-gradient(135deg, rgba(50, 135, 255, 0.85) 0%, rgba(178, 140, 255, 0.85) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d93287ff', endColorstr='#d9b28cff', GradientType=1);
-
+    background-image: url(../img/site/bg-home.png);
     background-size: cover;
+
     height: 100%;
     min-height: 100%;
     width: 100%;
@@ -18,54 +13,72 @@ body {
 
 main {
     width: 1200px;
+    height: auto;
     display: flex;
     justify-content: space-around;
 
 }
 
-main #row {
-    width: 100%;
+/* box auth */
+.auth {
+    width: 1200px;
+    height: 100%;
+    
+    position: absolute;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+
 }
 
-main #block {
-    display: block;
-}
 
-section.auth {
-    width: 100%;
+.head{
+    height: 190px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-section.auth .logo {
-    width: 200px;
-    height: 100px;
-    background: rgba(255, 255, 255, 0.5);
+
+.head .logo {
+    width: 380px;
+    height: 120px;
+
+    background: url(../img/site/logo_white.png);
+    background-size: cover;
+}
+.head .logo_b {
+    width: 380px;
+    height: 120px;
+
+    background: url(../img/site/logo_blue.png);
+    background-size: cover;
 }
 
-section.auth menu {
-    width: 700px;
+.head  menu {
+    width: 550px;
 }
 
-section.auth menu ul {
+.head menu ul {
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
+    font-weight: 400;
 }
 
-section.auth menu ul > li {
+.head menu ul > li {
     color: #FFF;
-    font-weight: bold;
-    letter-spacing: -1px;
     cursor: pointer;
     position: relative;
 }
 
-section.auth menu ul > li:hover > .sub {
+.auth .head menu ul > li:hover > .sub {
     display: block;
 }
 
-section.auth menu ul > li > .sub {
+.auth .head menu ul > li > .sub {
     width: 250px;
     background: #212121;
     border-radius: 5px;
@@ -75,27 +88,27 @@ section.auth menu ul > li > .sub {
     left: -50%;
 }
 
-section.auth menu ul > li > .sub > ul.social {
+.auth .head menu ul > li > .sub > ul.social {
     width: 100%;
     margin-bottom: 5px;
 }
 
-section.auth menu ul > li > .sub > ul.social > li {
+.auth .head menu ul > li > .sub > ul.social > li {
     width: 50%;
     padding: 7px;
 }
 
-section.auth menu ul > li > .sub > ul.social > li:first-child {
+.auth .head menu ul > li > .sub > ul.social > li:first-child {
     background: #2549c2;
     border-radius: 5px 0 0 5px;
 }
 
-section.auth menu ul > li > .sub > ul.social > li:last-child {
+.auth .head menu ul > li > .sub > ul.social > li:last-child {
     background: #e70019;
     border-radius: 0 5px 5px 0;
 }
 
-section.auth menu ul > li > .sub > input {
+.auth .head menu ul > li > .sub > input {
     width: 100%;
     padding: 7px;
     margin: 5px 0;
@@ -103,7 +116,7 @@ section.auth menu ul > li > .sub > input {
     color: #212121;
 }
 
-section.auth menu ul > li > .sub > button {
+.auth .head menu ul > li > .sub > button {
     width: 65%;
     padding: 7px;
     margin-top: 5px;
@@ -111,4 +124,42 @@ section.auth menu ul > li > .sub > button {
     border-radius: 5px;
     background: #FFFFFF;
     color: #212121;
+}
+
+
+.auth .content{
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    align-items: flex-end;
+}
+
+.auth .content h1{
+    width: 60%;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    font-size: 45px;
+}
+
+
+.auth .content span{
+    width: 30%;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    text-align: right;
+}
+
+.auth footer{
+    width: 30%;
+    
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 60px;
 }
