@@ -16,12 +16,12 @@ app.controller('AppCtrl', function($scope, AppService) {
         });
         console.log('$scope.items', $scope.items);
     });
-    $scope.clickDetalhes = clickDetalhes;
-    function clickDetalhes(nome) {
-        $scope.ativo = true;
-        AppService.detalhes(nome).then(function(resultado) {
-            $scope.atividade = resultado;
-            console.log('$scope.atividade', $scope.atividade);
-        });
-    }
+    // $scope.clickDetalhes = clickDetalhes;
+    // function clickDetalhes(nome) {
+    //     $scope.ativo = true;
+    //     AppService.detalhes(nome).then(function(resultado) {
+    //         $scope.atividade = resultado;
+    //         console.log('$scope.atividade', $scope.atividade);
+    //     });
+    // }
 });

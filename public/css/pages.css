@@ -17,6 +17,7 @@ aside {
     height: auto;
 
     color: #333;
+    border-right: solid 1px #B3B3B3;
 }
 
 aside h1 {
@@ -45,6 +46,7 @@ aside ul {
     width: 100% !important;
     font-size: 15px !important;
     font-weight: 700;
+    color: #333333;
 }
 
 .posts ul {
@@ -139,19 +141,27 @@ aside ul {
 .atividades ul li {
     width: 150px;
     height: 150px;
+    border-radius: 7px;
     background-size: cover;
-    border-radius: 5px;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
 }
 
 .atividades ul li .desc {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
     color: #333;
+    background: rgba(0,0,0,0.5);
     display: flex;
     align-items: flex-end;
 }
 
 .atividades ul li .desc h1 {
-    font-size: 8px;
+    color: #FFFFFF;
     padding: 15px;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 12px;
 }
