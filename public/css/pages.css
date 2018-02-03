@@ -11,22 +11,7 @@ header menu{
 
 
 
-
-
-
-
-
-
-
-
-aside h1 {
-    font-size: 20px !important;
-    font-weight: 700;
-}
-
-
-
-
+/* menu lateral */
 aside {
     width: 250px;
     height: auto;
@@ -34,51 +19,115 @@ aside {
     color: #333;
 }
 
+aside h1 {
+    width: 100% !important;
+    font-size: 15px !important;
+    font-weight: 700;
+}
+
 aside ul {
     margin-top: 20px;
     font-size: 14px;
 }
 
-section .atividades {
-    width: 490px;
+
+
+
+/*publicações de postagens */
+.posts {
+    width: 350px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;;
 }
 
-section .atividades ul {
-    width: 100%;
-    height: 320px;
+.posts h1 {
+    width: 100% !important;
+    font-size: 15px !important;
+    font-weight: 700;
+}
+
+.posts ul {
     display: flex;
-    justify-content: space-between;
     align-content: space-between;
     flex-flow: wrap;
 }
 
-section .atividades ul li {
-    width: 150px;
-    height: 150px;
-    background-size: cover;
+.posts ul li {
+    width: 300px;
+    margin-bottom: 20px;
+    background: #DDDDDD;
     border-radius: 5px;
+    padding: 10px;
 }
 
-section .atividades ul li .desc {
-    color: #333;
+.posts ul li .identificacao {
+    width: 100%;
+    height: 50px;
     display: flex;
-    align-items: flex-end;
+    justify-content: space-between;
 }
 
-section .atividades ul li .desc h1 {
-    font-size: 8px;
-    margin-top: 20px;
+.posts ul li .identificacao .foto {
+    width: 50px;
+    height: 50px;
+    border: solid 1px #666666;
+    border-radius: 50%;
+    background-position: center center;
+}
+
+.posts ul li .identificacao .nome {
+    width: calc(100% - 120px);
+    display: flex;
+    align-content: center;
+    flex-flow: wrap;
+}
+
+.posts ul li .identificacao .nome h1 {
+    width: 100%;
     font-size: 14px;
+    color: #666666;
+}
+
+.posts ul li .identificacao .nome h3 {
+    width: 100%;
+    font-size: 11px;
+    color: #666666;
+    font-weight: normal;
+}
+
+.posts ul li .identificacao .time {
+    width: 50px;
+    text-align: right;
+    font-size: 10px;
+    display: flex;
+    align-content: center;
+    flex-flow: wrap;
+    color: #666666;
+}
+
+.posts ul li p {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 13px;
+    color: #666666;
+}
+
+
+.posts ul li .acoes {
+    color: #666666;
+    font-size: 11px;
+    font-weight: bold;
 }
 
 
 
-
-section .atividades {
+/* atividades */
+.atividades {
     width: 490px;
 }
 
-section .atividades ul {
+.atividades ul {
     width: 100%;
     height: 320px;
     display: flex;
@@ -87,21 +136,22 @@ section .atividades ul {
     flex-flow: wrap;
 }
 
-section .atividades ul li {
+.atividades ul li {
     width: 150px;
     height: 150px;
     background-size: cover;
     border-radius: 5px;
 }
 
-section .atividades ul li .desc {
+.atividades ul li .desc {
     color: #333;
     display: flex;
     align-items: flex-end;
 }
 
-section .atividades ul li .desc h1 {
+.atividades ul li .desc h1 {
     font-size: 8px;
+    padding: 15px;
     margin-top: 20px;
     font-size: 14px;
 }

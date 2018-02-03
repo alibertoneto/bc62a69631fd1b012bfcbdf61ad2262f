@@ -20,147 +20,24 @@ main {
 
 }
 
-/* box auth */
-.auth {
-    width: 1200px;
-    height: 100%;
-    
-    position: absolute;
-
-    display: flex;
-    justify-content: space-between;
-    flex-flow: wrap;
-
-}
 
 
-.head{
-    height: 190px;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.head .logo {
-    width: 380px;
-    height: 120px;
-
-    background: url(../img/site/logo_white.png);
-    background-size: cover;
-}
-.head .logo_b {
-    width: 380px;
-    height: 120px;
-
-    background: url(../img/site/logo_blue.png);
-    background-size: cover;
-}
-
-.head  menu {
-    width: 550px;
-}
-
-.head menu ul {
+header menu ul {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
     font-weight: 400;
-}
-
-.head menu ul > li {
-    color: #FFF;
-    cursor: pointer;
-    position: relative;
-}
-
-.auth .head menu ul > li:hover > .sub {
-    display: block;
-}
-
-.auth .head menu ul > li > .sub {
-    width: 250px;
-    background: #212121;
-    border-radius: 5px;
-    padding: 15px;
-    display: none;
-    position: absolute;
-    left: -50%;
-}
-
-.auth .head menu ul > li > .sub > ul.social {
-    width: 100%;
-    margin-bottom: 5px;
-}
-
-.auth .head menu ul > li > .sub > ul.social > li {
-    width: 50%;
-    padding: 7px;
-}
-
-.auth .head menu ul > li > .sub > ul.social > li:first-child {
-    background: #2549c2;
-    border-radius: 5px 0 0 5px;
-}
-
-.auth .head menu ul > li > .sub > ul.social > li:last-child {
-    background: #e70019;
-    border-radius: 0 5px 5px 0;
-}
-
-.auth .head menu ul > li > .sub > input {
-    width: 100%;
-    padding: 7px;
-    margin: 5px 0;
-    border-radius: 5px;
-    color: #212121;
-}
-
-.auth .head menu ul > li > .sub > button {
-    width: 65%;
-    padding: 7px;
-    margin-top: 5px;
-    float: right;
-    border-radius: 5px;
-    background: #FFFFFF;
-    color: #212121;
+    color: #fff;
 }
 
 
-.auth .content{
-    width: 100%;
-    height: 300px;
-    
+
+header .logo_b {
     display: flex;
-    align-items: flex-end;
-}
-
-.auth .content h1{
-    width: 60%;
-    
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-
-    font-size: 45px;
-}
-
-
-.auth .content span{
-    width: 30%;
-    
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-
-    text-align: right;
-}
-
-.auth footer{
-    width: 30%;
-    
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 60px;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    background: url(../img/site/logo_white.png);
 }

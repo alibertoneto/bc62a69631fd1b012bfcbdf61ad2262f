@@ -81,9 +81,11 @@ header .logo_b {
     background-size: cover;
 }
 
+
 header menu {
     width: 550px;
 }
+
 
 header menu ul {
     display: flex;

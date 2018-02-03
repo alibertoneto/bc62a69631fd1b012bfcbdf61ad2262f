@@ -15,7 +15,6 @@
                     "public/js/app/atividades.js",
 				],
                 "css" => [
-                    "public/css/home.css",
                     "public/css/pages.css"
                 ]
 			];
