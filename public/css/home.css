@@ -9,13 +9,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
 main {
     width: 1200px;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
