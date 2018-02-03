@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,7 @@
 	
 	<?=isset($data['config']['assets']) ? $data['config']['assets'] : '';?>
 </head>
-<body>
+<body ng-controller="AppCtrl">
 
 	<header>
 

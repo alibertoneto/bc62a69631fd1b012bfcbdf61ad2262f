@@ -1,0 +1,102 @@
+<section class="auth">
+    <div class="logo">
+        Logotipo
+    </div>
+
+    <menu>
+        <ul>
+            <li>
+                <a href="#">o evento</a>
+            </li>
+            <li>
+                cadastra-se
+                <form action="#" class="sub">
+                    <ul class="social">
+                        <li>Facebook</li>
+                        <li>Google +</li>
+                    </ul>
+
+                    <input type="text" placeholder="e-mail"/>
+                    <input type="password" placeholder="senha"/>
+                    <button>enviar</button>
+                </form>
+            </li>
+            <li>
+                já me cadastrei
+                <form action="#" class="sub">
+                    <ul class="social">
+                        <li>Facebook</li>
+                        <li>Google +</li>
+                    </ul>
+
+                    <input type="text" placeholder="e-mail"/>
+                    <input type="password" placeholder="senha"/>
+                    <button>entrar</button>
+                </form>
+            </li>
+            <li>
+                <a href="#">contato</a>
+            </li>
+        </ul>
+    </menu>
+</section>
+
+
+<section class="actions">
+    <aside>
+        <h1>Minhas configurações</h1>
+
+        <ul>
+            <li>Pesquisar</li>
+            <li>Agora na Campus</li>
+            <li>Pessoas</li>
+            <li>Favoritos</li>
+        </ul>
+
+        <ul>
+            <li>Agenda Geral</li>
+            <li>Workshops</li>
+            <li>Challengers</li>
+            <li>Talks</li>
+        </ul>
+    </aside>
+
+    <div class="posts">
+        Jef diz
+        Jef diz
+        Jef diz
+    </div>
+
+    <div class="atividades">
+        <ul>
+            <li ng-repeat="item in items" ng-if="!ativo" style="background-image: url({{item.background_image}})">
+                <div class="desc">
+                    <h1>{{item.title}}</h1>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<!--
+<div ng-repeat="item in items" ng-if="!ativo">
+    <div class="card">
+        <img class="card-img-top" src="{{item.background_image}}" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text">{{item.stadium_name}}</p>
+            <a ng-click="clickDetalhes(item.slug)" class="btn btn-primary">{{item.event_slug}}</a>
+        </div>
+    </div>
+
+</div>
+<div class="card">
+    <img class="card-img-top" src="{{atividade.background_image}}" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">{{atividade.title}}</h5>
+        <p class="card-text">{{atividade.stadium_name}}</p>
+        <p class="card-text" ng-bind="atividade.description"></p>
+    </div>
+</div>
+-->
