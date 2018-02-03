@@ -17,7 +17,6 @@ aside {
     height: auto;
 
     color: #333;
-    border-right: solid 1px #B3B3B3;
 }
 
 aside h1 {
@@ -32,6 +31,14 @@ aside ul {
 }
 
 
+
+/*publicações de postagens */
+.posts-networking {
+    width: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;;
+}
 
 
 /*publicações de postagens */
@@ -56,8 +63,8 @@ aside ul {
 }
 
 .posts ul li {
-    width: 300px;
-    margin-bottom: 20px;
+    width: 290px;
+    margin: 10px;
     background: #DDDDDD;
     border-radius: 5px;
     padding: 10px;
