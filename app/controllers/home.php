@@ -17,6 +17,7 @@
 			];
 
 			$data['config']['assets'] = $this->view->setAssets($assets);
+			$data['config']['menu'] = 0;
 
 			// RENDER PAGE HTML 
 			$this->view->render('home/index', $data);

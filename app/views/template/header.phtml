@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html ng-app="app">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<base href="<?=SITE_URL?>">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <base href="<?= SITE_URL ?>">
 
-	<title><?=isset($data['config']['title']) ? $data['config']['title'] : SITE_TITLE;?></title>
-	
-	<link rel="stylesheet" href="public/css/style.css">
+    <title><?= isset($data['config']['title']) ? $data['config']['title'] : SITE_TITLE; ?></title>
 
-	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-	<script src="public/js/configs.js"></script>
-	
-	<?=isset($data['config']['assets']) ? $data['config']['assets'] : '';?>
+    <link rel="stylesheet" href="public/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="public/js/configs.js"></script>
+
+    <?= isset($data['config']['assets']) ? $data['config']['assets'] : ''; ?>
 </head>
 <body ng-controller="AppCtrl">
 
-	<header>
- 		<!--logo-->
-        <div class="logo_b"></div>
+<header>
+    <!--logo-->
+    <div class="logo_b"></div>
 
-        <!--menu-->
-        <menu>
-            <ul>
-                <li>página do evento</li> 
-                <li>network</li>
+    <!--menu-->
+    <menu>
+        <ul>
+            <?php if ($data['config']['menu'] == 0) { ?>
+                <li>o evento</li>
+                <li>cadastre-se</li>
+                <li><a href="edition/">entrar</a></li>
+                <li>contato</li>
+            <?php } else { ?>
+                <li>página do evento</li>
+                <li><a href="networking/">networking</a></li>
                 <li>contato</li>
                 <li>|</li>
                 <li>Oi Jeferson</li>
-            </ul>
-        </menu>
-	</header>
-	<main>
+            <?php } ?>
+        </ul>
+    </menu>
+</header>
+<main>
 		

@@ -943,3 +943,48 @@ Stack trace:
 [03-Feb-2018 04:06:29 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '"public/css/pages.css"' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\wamp64\www\CampuseirosMirror\app\controllers\edition.php on line 19
 [03-Feb-2018 04:06:29 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '"public/css/pages.css"' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\wamp64\www\CampuseirosMirror\app\controllers\edition.php on line 19
 [03-Feb-2018 04:06:29 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '"public/css/pages.css"' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\wamp64\www\CampuseirosMirror\app\controllers\edition.php on line 19
+[03-Feb-2018 09:58:52 America/Sao_Paulo] PHP Notice:  Undefined index: menu in D:\wamp64\www\CampuseirosMirror\app\views\template\header.phtml on line 26
+[03-Feb-2018 09:58:52 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2018 09:58:52 America/Sao_Paulo] PHP   1. {main}() D:\wamp64\www\CampuseirosMirror\index.php:0
+[03-Feb-2018 09:58:52 America/Sao_Paulo] PHP   2. Core\App->run() D:\wamp64\www\CampuseirosMirror\index.php:17
+[03-Feb-2018 09:58:52 America/Sao_Paulo] PHP   3. Core\App->setController() D:\wamp64\www\CampuseirosMirror\app\core\app.php:44
+[03-Feb-2018 09:58:52 America/Sao_Paulo] PHP   4. Core\App->error() D:\wamp64\www\CampuseirosMirror\app\core\app.php:25
+[03-Feb-2018 09:58:52 America/Sao_Paulo] PHP   5. Controllers\Error->index() D:\wamp64\www\CampuseirosMirror\app\core\app.php:39
+[03-Feb-2018 09:58:52 America/Sao_Paulo] PHP   6. Core\View->render() D:\wamp64\www\CampuseirosMirror\app\controllers\error.php:14
+[03-Feb-2018 09:58:52 America/Sao_Paulo] PHP   7. include_once() D:\wamp64\www\CampuseirosMirror\app\core\view.php:8
+[03-Feb-2018 10:00:26 America/Sao_Paulo] PHP Notice:  Undefined index: menu in D:\wamp64\www\CampuseirosMirror\app\views\template\header.phtml on line 26
+[03-Feb-2018 10:00:26 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2018 10:00:26 America/Sao_Paulo] PHP   1. {main}() D:\wamp64\www\CampuseirosMirror\index.php:0
+[03-Feb-2018 10:00:26 America/Sao_Paulo] PHP   2. Core\App->run() D:\wamp64\www\CampuseirosMirror\index.php:17
+[03-Feb-2018 10:00:26 America/Sao_Paulo] PHP   3. Core\App->setController() D:\wamp64\www\CampuseirosMirror\app\core\app.php:44
+[03-Feb-2018 10:00:27 America/Sao_Paulo] PHP   4. Core\App->error() D:\wamp64\www\CampuseirosMirror\app\core\app.php:25
+[03-Feb-2018 10:00:27 America/Sao_Paulo] PHP   5. Controllers\Error->index() D:\wamp64\www\CampuseirosMirror\app\core\app.php:39
+[03-Feb-2018 10:00:27 America/Sao_Paulo] PHP   6. Core\View->render() D:\wamp64\www\CampuseirosMirror\app\controllers\error.php:14
+[03-Feb-2018 10:00:27 America/Sao_Paulo] PHP   7. include_once() D:\wamp64\www\CampuseirosMirror\app\core\view.php:8
+[03-Feb-2018 10:00:35 America/Sao_Paulo] PHP Notice:  Undefined index: menu in D:\wamp64\www\CampuseirosMirror\app\views\template\header.phtml on line 26
+[03-Feb-2018 10:00:35 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2018 10:00:35 America/Sao_Paulo] PHP   1. {main}() D:\wamp64\www\CampuseirosMirror\index.php:0
+[03-Feb-2018 10:00:35 America/Sao_Paulo] PHP   2. Core\App->run() D:\wamp64\www\CampuseirosMirror\index.php:17
+[03-Feb-2018 10:00:35 America/Sao_Paulo] PHP   3. Core\App->setController() D:\wamp64\www\CampuseirosMirror\app\core\app.php:44
+[03-Feb-2018 10:00:35 America/Sao_Paulo] PHP   4. Core\App->error() D:\wamp64\www\CampuseirosMirror\app\core\app.php:25
+[03-Feb-2018 10:00:35 America/Sao_Paulo] PHP   5. Controllers\Error->index() D:\wamp64\www\CampuseirosMirror\app\core\app.php:39
+[03-Feb-2018 10:00:35 America/Sao_Paulo] PHP   6. Core\View->render() D:\wamp64\www\CampuseirosMirror\app\controllers\error.php:14
+[03-Feb-2018 10:00:35 America/Sao_Paulo] PHP   7. include_once() D:\wamp64\www\CampuseirosMirror\app\core\view.php:8
+[03-Feb-2018 10:00:45 America/Sao_Paulo] PHP Notice:  Undefined index: menu in D:\wamp64\www\CampuseirosMirror\app\views\template\header.phtml on line 26
+[03-Feb-2018 10:00:45 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2018 10:00:45 America/Sao_Paulo] PHP   1. {main}() D:\wamp64\www\CampuseirosMirror\index.php:0
+[03-Feb-2018 10:00:45 America/Sao_Paulo] PHP   2. Core\App->run() D:\wamp64\www\CampuseirosMirror\index.php:17
+[03-Feb-2018 10:00:45 America/Sao_Paulo] PHP   3. Core\App->setController() D:\wamp64\www\CampuseirosMirror\app\core\app.php:44
+[03-Feb-2018 10:00:45 America/Sao_Paulo] PHP   4. Core\App->error() D:\wamp64\www\CampuseirosMirror\app\core\app.php:25
+[03-Feb-2018 10:00:45 America/Sao_Paulo] PHP   5. Controllers\Error->index() D:\wamp64\www\CampuseirosMirror\app\core\app.php:39
+[03-Feb-2018 10:00:45 America/Sao_Paulo] PHP   6. Core\View->render() D:\wamp64\www\CampuseirosMirror\app\controllers\error.php:14
+[03-Feb-2018 10:00:45 America/Sao_Paulo] PHP   7. include_once() D:\wamp64\www\CampuseirosMirror\app\core\view.php:8
+[03-Feb-2018 10:01:37 America/Sao_Paulo] PHP Notice:  Undefined index: menu in D:\wamp64\www\CampuseirosMirror\app\views\template\header.phtml on line 26
+[03-Feb-2018 10:01:37 America/Sao_Paulo] PHP Stack trace:
+[03-Feb-2018 10:01:37 America/Sao_Paulo] PHP   1. {main}() D:\wamp64\www\CampuseirosMirror\index.php:0
+[03-Feb-2018 10:01:37 America/Sao_Paulo] PHP   2. Core\App->run() D:\wamp64\www\CampuseirosMirror\index.php:17
+[03-Feb-2018 10:01:37 America/Sao_Paulo] PHP   3. Core\App->setController() D:\wamp64\www\CampuseirosMirror\app\core\app.php:44
+[03-Feb-2018 10:01:37 America/Sao_Paulo] PHP   4. Core\App->error() D:\wamp64\www\CampuseirosMirror\app\core\app.php:25
+[03-Feb-2018 10:01:37 America/Sao_Paulo] PHP   5. Controllers\Error->index() D:\wamp64\www\CampuseirosMirror\app\core\app.php:39
+[03-Feb-2018 10:01:37 America/Sao_Paulo] PHP   6. Core\View->render() D:\wamp64\www\CampuseirosMirror\app\controllers\error.php:14
+[03-Feb-2018 10:01:37 America/Sao_Paulo] PHP   7. include_once() D:\wamp64\www\CampuseirosMirror\app\core\view.php:8
