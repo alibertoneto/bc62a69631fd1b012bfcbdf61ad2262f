@@ -32,6 +32,14 @@ aside ul {
 
 
 
+/*publicações de postagens */
+.posts-networking {
+    width: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;;
+}
+
 
 /*publicações de postagens */
 .posts {
